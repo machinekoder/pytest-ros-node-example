@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="my_pkg" type="publisher" name="publisher" />
+  <param name="test_module" value="listener"/>
+  <test test-name="test_mynode" pkg="my_pkg" type="pytest_runner.py" />
+</launch>

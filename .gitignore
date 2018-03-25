@@ -1,0 +1,7 @@
+# Python
+*.pyc
+
+# pytest
+.coverage
+.cache
+.pytest_cache

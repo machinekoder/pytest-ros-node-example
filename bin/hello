@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+import my_pkg.hello
+
+
+if __name__ == '__main__':
+    my_pkg.hello.say('my friend!')
