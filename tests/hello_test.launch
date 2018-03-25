@@ -1,5 +1,5 @@
 <launch>
   <node pkg="my_pkg" type="hello" name="hello" />
   <param name="test_module" value="hello"/>
-  <test test-name="test_mynode" pkg="my_pkg" type="pytest_runner.py" />
+  <test test-name="test_hello" pkg="my_pkg" type="pytest_runner.py" />
 </launch>

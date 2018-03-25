@@ -1,0 +1,4 @@
+<launch>
+  <param name="test_module" value="../src"/>
+  <test test-name="test_lib" pkg="my_pkg" type="pytest_runner.py" />
+</launch>
